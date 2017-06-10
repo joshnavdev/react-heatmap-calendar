@@ -1,0 +1,5 @@
+{
+    "private": true,
+    "name": "CalendarHeatmap",
+    "main": "./index.js"
+}

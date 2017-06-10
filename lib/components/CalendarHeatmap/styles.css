@@ -1,0 +1,91 @@
+.cal-heatmap {
+  display: inline-block;
+  user-select: none;
+  position: relative;
+  width: 100%; }
+
+.cal-heatmap_year {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  white-space: nowrap;
+  transition: left, 1s, ease-in-out; }
+
+.cal-heatmap_month {
+  font-size: 0;
+  display: inline-block;
+  white-space: normal;
+  margin: 0 7px; }
+
+.cal-heatmap_week {
+  display: inline-block;
+  width: 14px; }
+
+.cal-heatmap_day {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #f3f6f8;
+  background-color: #c8d7e1;
+  margin: 0; }
+  .cal-heatmap_day.is-hovered {
+    border-color: #00aacd; }
+  .cal-heatmap_day.is-outside-month {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: white; }
+  .cal-heatmap_day.is-after-today {
+    background-color: #ECEFF1; }
+  .cal-heatmap_day.is-level-1.blue {
+    background-color: #BBDEFB; }
+  .cal-heatmap_day.is-level-1.green {
+    background-color: #c6e48b; }
+  .cal-heatmap_day.is-level-1.red {
+    background-color: #ffeb80; }
+  .cal-heatmap_day.is-level-1.purple {
+    background-color: #E1BEE7; }
+  .cal-heatmap_day.is-level-2.blue {
+    background-color: #64B5F6; }
+  .cal-heatmap_day.is-level-2.green {
+    background-color: #7bc96f; }
+  .cal-heatmap_day.is-level-2.red {
+    background-color: #ffac4e; }
+  .cal-heatmap_day.is-level-2.purple {
+    background-color: #BA68C8; }
+  .cal-heatmap_day.is-level-3.blue {
+    background-color: #1E88E5; }
+  .cal-heatmap_day.is-level-3.green {
+    background-color: #239a3b; }
+  .cal-heatmap_day.is-level-3.red {
+    background-color: #ff5913; }
+  .cal-heatmap_day.is-level-3.purple {
+    background-color: #8E24AA; }
+  .cal-heatmap_day.is-level-4.blue {
+    background-color: #0D47A1; }
+  .cal-heatmap_day.is-level-4.green {
+    background-color: #239a3b; }
+  .cal-heatmap_day.is-level-4.red {
+    background-color: #e50000; }
+  .cal-heatmap_day.is-level-4.purple {
+    background-color: #4A148C; }
+
+.cal-heatmap_label {
+  text-align: center;
+  font-size: 17px;
+  color: #676767;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: .1em; }
+
+.cal-heatmap_container {
+  padding-top: 10px; }
+
+.cal-heatmap_day-showers {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding: 2px 9px 0 9px; }
+
+.cal-heatmap_menu {
+  margin-top: 20px; }
