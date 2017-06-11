@@ -1,4 +1,5 @@
 .cal-heatmap {
+  text-align: center;
   display: inline-block;
   user-select: none;
   position: relative;
@@ -88,4 +89,4 @@
   padding: 2px 9px 0 9px; }
 
 .cal-heatmap_menu {
-  margin-top: 20px; }
+  margin: 20px 0; }

@@ -29,7 +29,7 @@ const streakData = {
   '2017-05-05': {
     deliveries: 1,
     reviews: 2,
-    others: 0,
+    others: 10,
   },
 };
 
