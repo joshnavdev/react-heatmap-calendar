@@ -1,8 +1,8 @@
 {
   "name": "react-heatmap-calendar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
-  "private": true,
+  "private": false,
   "dependencies": {
     "antd": "^2.11.0",
     "moment": "^2.18.1",
