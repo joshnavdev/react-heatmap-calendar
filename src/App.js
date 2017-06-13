@@ -38,9 +38,11 @@ const calendarHeatmapProps = {
   lowerText: 'bajo',
   views,
   streakData,
+  size: 'small',
   // TODO: Ask for month names
 }
 class App extends Component {
+
   render() {
     return (
       <CalendarHeatmap {...calendarHeatmapProps} />
